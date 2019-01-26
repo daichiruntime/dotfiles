@@ -8,7 +8,7 @@ export PS1="[\w]\$ "
 #
 export HISTFILE=$HOME/data/histfile
 export HISTTIMEFORMAT="%Y%m%d-%H%M "
-export HISTIGNORE="ls:ll:pwd"
+export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
 
 #
