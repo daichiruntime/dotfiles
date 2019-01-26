@@ -1,18 +1,18 @@
 #
-# bash simple interface
+# simple bash prompt
 #
 export PS1="[\w]\$ "
 
 #
-# history data to organized
+# organized bash history file
 #
 export HISTFILE=$HOME/data/histfile
 export HISTTIMEFORMAT="%Y%m%d-%H%M "
-export HISTIGNORE="ls:ll:pwd"
+export HISTIGNORE="ls:ll:history"
 export HISTFILESIZE=100000
 
 #
-# power alias
+# powerful bash commands
 #
 alias ls='ls --color=always'
 alias ll='ls -log --time-style=+"%Y%m%d-%H%M"'
