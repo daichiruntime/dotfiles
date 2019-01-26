@@ -1,4 +1,4 @@
-comm="script -af $HOME/data/@`hostname`/term_`date +%Y%m%d`.log"
+comm="script -af $HOME/data/@`hostname`/term`date +%Y%m%d`.log"
 if [ "$(uname)" == "Darwin" ]; then
   OS=Mac
   mkdir -p $HOME/data/@`hostname`
