@@ -10,7 +10,7 @@ syntax off
 "
 set backup
 set backupdir=~/data/vim/
-set viminfo+=n~/data/vim/viminfo
+set viminfo+=n~/data/viminfo
 set swapfile
 let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")."bak"
