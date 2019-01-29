@@ -6,7 +6,7 @@ set nonumber
 syntax off
 
 "
-" backup file --> ~/data/vim/
+" backup --> ~/data/vim/
 "
 set backup
 set backupdir=~/data/vim/
