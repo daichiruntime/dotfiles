@@ -1,21 +1,21 @@
 #
-# simple bash prompt
+# Simple prompt
 #
-export PS1="[\w]\$ "
+export PS1="\n\w\$ "
 
 #
-# organized bash history file
+# Organized history file
 #
 export HISTFILE=$HOME/data/histfile
-export HISTTIMEFORMAT="%Y%m%d-%H%M "
+export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
 
 #
-# powerful bash commands
+# ls command
 #
 alias ls='ls --color=always'
-alias ll='ls -log --time-style=+"%Y%m%d-%H%M"'
+alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
 
 #
 # env
