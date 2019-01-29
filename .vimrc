@@ -1,12 +1,12 @@
 "
-" vim user interface
+" interface
 "
 set notitle
 set nonumber
 syntax off
 
 "
-" vim log 
+" file backup --> ~/data 
 "
 set backup
 set backupdir=~/data/vim/
@@ -16,7 +16,7 @@ let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")."bak"
 
 "
-" vim text
+" indent
 "
 set noautoindent
 set nosmartindent
