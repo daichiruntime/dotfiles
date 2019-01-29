@@ -1,10 +1,10 @@
 #
-# Simple prompt
+# simple prompt
 #
 export PS1="\n\w\$ "
 
 #
-# Organized history file
+# organized history file
 #
 export HISTFILE=$HOME/data/histfile
 export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
