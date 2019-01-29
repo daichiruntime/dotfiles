@@ -1,3 +1,6 @@
+#
+# terminal log -> ~/data/`hostname`/
+#
 comm="script -af $HOME/data/`hostname`/term`date +%Y%m%d`.log"
 if [ "$(uname)" == "Darwin" ]; then
   OS=Mac
