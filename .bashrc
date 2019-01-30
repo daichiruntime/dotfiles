@@ -6,7 +6,7 @@ export PS1="\n\w\$ "
 #
 # organized history file
 #
-export HISTFILE=$HOME/data/histfile
+export HISTFILE=$HOME/data/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
