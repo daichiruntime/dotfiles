@@ -23,4 +23,3 @@ alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
 umask 022
 export LANG=C
 export LC_ALL=C 
-
