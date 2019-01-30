@@ -20,6 +20,7 @@ alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
 #
 # env
 #
+umask 022
 export LANG=C
 export LC_ALL=C 
 
