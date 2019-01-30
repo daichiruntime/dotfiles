@@ -24,4 +24,4 @@ set nowrap
 set backspace=eol,start,indent
 set smarttab        " be smart when using tabs
 set expandtab       " use spaces instead of tabs
-set tabstop=2       " 1 tab == 4 spaces
+set tabstop=2       " 1 tab == 2 spaces
