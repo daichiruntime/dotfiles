@@ -4,13 +4,13 @@
 export PS1="\n\w\$ "
 
 #
-# history info --> ~/hist/bashinfo    # mkdir ~/hist
+# history --> ~/hist/bashinfo    # mkdir ~/hist
 #
 # $ history
 #   1  2019/02/03 14:29 vim src/file
 #   2  2019/02/03 14:30 cp -Ra src/ src.190203a/
 #   3  2019/02/03 14:31 cd src
-#   4  2019/02/03 14:31 ./compile_190203a.sh >& compile.190203a.log
+#   4  2019/02/03 14:31 ./compile_190203a.sh >& compile_190203a.log
 #   5  2019/02/03 14:31 vim src/file
 #
 export HISTFILE=~/hist/bashinfo
