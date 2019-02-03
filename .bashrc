@@ -23,7 +23,7 @@ export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
 
 #
-# list command
+# ls family
 #
 alias ls='ls --color=always'
 alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
