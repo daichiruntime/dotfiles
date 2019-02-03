@@ -4,7 +4,7 @@
 export PS1="\n\w\$ "
 
 #
-# history file --> ~/hist/bashinfo   # mkdir -p ~/hist
+# history file --> ~/hist/bashinfo        # mkdir -p ~/hist
 #
 export HISTFILE=~/hist/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
