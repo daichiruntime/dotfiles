@@ -4,14 +4,18 @@
 export PS1="\n\w\$ "
 
 #
-# history --> ~/hist/bashinfo    # mkdir ~/hist
+# history --> ~/hist/bashinfo  # mkdir ~/hist
 #
 # $ history
-#   1  2019/02/03 14:29 vim src/file
-#   2  2019/02/03 14:30 cp -Ra src/ src.190203a/
-#   3  2019/02/03 14:31 cd src
-#   4  2019/02/03 14:31 ./compile_190203a.sh >& compile_190203a.log
-#   5  2019/02/03 14:33 vim src/file
+#   1  2017/04/08 10:04 vim src/sample.cpp
+#   2  2017/04/08 10:15 cp -a src/sample.cpp src/sample.cpp.170408a
+#   3  2017/04/08 10:15 cd src
+#   4  2017/04/08 10:16 ./compile_170408a.sh >& compile_170408a.log
+#   5  2017/04/08 10:16 more compile_170408a.log
+#   6  2017/04/08 10:18 vim src/sample.cpp
+#  ..
+#  24  2017/04/08 10:31 more compile_170408d.log
+#  25  2017/04/08 10:34 exit 0
 #
 export HISTFILE=~/hist/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d %H:%M "
