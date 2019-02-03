@@ -12,7 +12,7 @@ export PS1="\n\w\$ "
 #   2  2019/02/03 14:30 cp -Ra src/ src.190203a/
 #   3  2019/02/03 14:31 cd src
 #   4  2019/02/03 14:31 ./compile.sh &> compile.log
-#   5  2019/02/03 14:31 vim src/file
+#   5  2019/02/03 14:33 vim src/file
 #
 export HISTFILE=~/hist/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d %H:%M "
