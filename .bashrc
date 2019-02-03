@@ -4,15 +4,15 @@
 export PS1="\n\w\$ "
 
 #
-# history info --> ~/data/bashinfo
+# history file --> ~/hist/bashinfo
 #
-export HISTFILE=$HOME/data/bashinfo
+export HISTFILE=$HOME/hist/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
 
 #
-# ls family
+# list command
 #
 alias ls='ls --color=always'
 alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
