@@ -4,10 +4,18 @@
 export PS1="\n\w\$ "
 
 #
-# history file --> ~/hist/bashinfo        # mkdir -p ~/hist
+# history info --> ~/hist/bashinfo    # mkdir ~/hist
+#
+# interface:
+# $ history
+#   1  2019/02/03 14:29 vim src/file
+#   2  2019/02/03 14:30 cp -Ra src/ src.190203a/
+#   3  2019/02/03 14:31 cd src
+#   4  2019/02/03 14:31 ./compile.sh &> compile.log
+#   5  2019/02/03 14:31 vim src/file
 #
 export HISTFILE=~/hist/bashinfo
-export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
+export HISTTIMEFORMAT="%Y/%m/%d %H:%M "
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
 
