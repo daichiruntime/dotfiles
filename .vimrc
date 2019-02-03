@@ -6,7 +6,7 @@ set nonumber
 syntax off
 
 "
-" backup --> ~/hist/vim/
+" backup --> ~/hist/vim/   " mkdir -p ~/hist/vim
 "
 set backup
 set backupdir=~/hist/vim/
