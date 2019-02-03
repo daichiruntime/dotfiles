@@ -4,9 +4,9 @@
 export PS1="\n\w\$ "
 
 #
-# history file --> ~/hist/bashinfo
+# history file --> ~/hist/bashinfo   # mkdir -p ~/hist
 #
-export HISTFILE=$HOME/hist/bashinfo
+export HISTFILE=~/hist/bashinfo
 export HISTTIMEFORMAT="%Y/%m/%d-%H:%M "
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=100000
