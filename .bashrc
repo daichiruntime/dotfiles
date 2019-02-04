@@ -8,7 +8,7 @@ export PS1="\n\w\$ "
 #   2  20190108-1005 cp bfile afile
 #   3  20190108-1005 cd tmpfile bfile
 #   4  20190108-1005 exit 0
-export HISTFILE=~/hist/bashdata
+export HISTFILE=~/hist/bash
 export HISTIGNORE="history:ls:ll"
 export HISTFILESIZE=200000
 export HISTTIMEFORMAT="%Y%m%d-%H%M "
