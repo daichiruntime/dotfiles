@@ -1,7 +1,7 @@
 all:
 	cp -i .bashrc $(HOME)/
 	cp -i .exrc $(HOME)/
-	mkdir -pv $(HOME)//vifile
+	mkdir -pv $(HOME)/backup/vifile
 
 clean:
 	rm -i $(HOME)/.bashrc
