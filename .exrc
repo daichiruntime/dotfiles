@@ -1,19 +1,27 @@
-" interface
-set notitle
+"
+" Simplicity vim interface
+"
+set title
 set nonumber
 syntax off
 
-" history -> ~/hist/vi  "" mkdir ~/hist
+"
+" History to ~/hist/vi
+"
 set viminfo+=n~/hist/vi
 
-" file history -> ~/hist/vifile/  "" mkdir ~/hist/vifile
+"
+" File backup to ~/hist/vifile/(backup)files
+"
 set backup
 set backupdir=~/hist/vifile/
 set swapfile
 let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")
 
-" indent
+"
+" Indent
+"
 set noautoindent
 set nosmartindent
 set nowrap
