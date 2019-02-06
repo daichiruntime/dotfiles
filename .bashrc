@@ -4,7 +4,7 @@
 export PS1="\n\w\$ "
 
 #
-# History to ~/hist/bash
+# History to ~/backup/bash
 #
 # history(1) output sample:
 # $ history
@@ -14,7 +14,7 @@ export PS1="\n\w\$ "
 #   4  20190108-1005 rm tmpfile
 #   4  20190108-1005 exit 0
 #
-export HISTFILE=~/hist/bash
+export HISTFILE=~/backup/bash
 export HISTIGNORE="history:ls*:ll*"
 export HISTFILESIZE=100000
 export HISTTIMEFORMAT="%Y%m%d-%H%M "
