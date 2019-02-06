@@ -8,16 +8,16 @@ export PS1="\n\w\$ "
 #
 # history(1) sample:
 # $ history
-#   1  20190108-1004 cp afile tmpfile
-#   2  20190108-1005 cp bfile afile
-#   3  20190108-1005 cp tmpfile bfile
-#   4  20190108-1005 rm tmpfile
-#   4  20190108-1005 exit 0
+#   1  2019/01/08 10:04 cp afile tmpfile
+#   2  2019/01/08 10:05 cp bfile afile
+#   3  2019/01/08 10:05 cp tmpfile bfile
+#   4  2019/01/08 10:05 rm tmpfile
+#   4  2019/01/08 10:06 exit 0
 #
 export HISTFILE=~/backup/bash
 export HISTIGNORE="history:ls*:ll*"
 export HISTFILESIZE=100000
-export HISTTIMEFORMAT="%Y%m%d-%H%M "
+export HISTTIMEFORMAT="%Y/%m/%d %H:%M "
 
 #
 # Useful bash command
@@ -25,7 +25,7 @@ export HISTTIMEFORMAT="%Y%m%d-%H%M "
 
 # ls(1) family
 alias ls='ls --color=always'
-alias ll='ls -log --time-style=+"%Y/%m/%d-%H:%M"'
+alias ll='ls -log --time-style=+"%Y/%m/%d %H:%M"'
 
 #
 # Environ
