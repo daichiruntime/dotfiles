@@ -1,8 +1,8 @@
 "
-" Simplicity vim interface
+" Simplicity vim window
 "
 set title
-set nonumber
+set nonumber  ":+(line number)+(Enter)
 syntax off
 
 "
