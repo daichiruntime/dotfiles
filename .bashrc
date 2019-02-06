@@ -6,7 +6,7 @@ export PS1="\n\w\$ "
 #
 # History to ~/backup/bash
 #
-# history(1) output sample:
+# history(1) sample:
 # $ history
 #   1  20190108-1004 cp afile tmpfile
 #   2  20190108-1005 cp bfile afile
