@@ -6,15 +6,15 @@ set nonumber
 syntax off
 
 "
-" History to ~/hist/vi
+" History to ~/backup/vi
 "
-set viminfo+=n~/hist/vi
+set viminfo+=n~/backup/vi
 
 "
-" File backup to ~/hist/vifile/(backup)files
+" File backup to ~/backup/vifile/(files)
 "
 set backup
-set backupdir=~/hist/vifile/
+set backupdir=~/backup/vifile/
 set swapfile
 let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")
