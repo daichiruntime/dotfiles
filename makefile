@@ -1,6 +1,4 @@
-.PHONY: build clean
-
-build:
+all:
 	cp -i .bashrc $(HOME)/
 	cp -i .exrc $(HOME)/
 	mkdir -pv $(HOME)//vifile
