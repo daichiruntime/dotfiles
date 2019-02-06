@@ -1,17 +1,12 @@
 "
-" Simplicity vim window
+" Set up a Simplicity window
 "
 set title
-set nonumber  ":+(line number)+(Enter)
+set number
 syntax off
 
 "
-" History to ~/backup/vi
-"
-set viminfo+=n~/backup/vi
-
-"
-" File backup to ~/backup/vifile/(files)
+" Back up when saving files -> ~/backup/vifile/* "" mkdir -p ~/backup/vifile
 "
 set backup
 set backupdir=~/backup/vifile/
@@ -20,7 +15,12 @@ let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")
 
 "
-" Indent
+" Save Vim info in ~/backup/vi
+"
+set viminfo+=n~/backup/vi
+
+"
+" Set Indent related
 "
 set noautoindent
 set nosmartindent
