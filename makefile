@@ -3,7 +3,7 @@
 build:
 	cp -i .bashrc $(HOME)/
 	cp -i .exrc $(HOME)/
-	mkdir -pv $(HOME)/hist/vifile
+	mkdir -pv $(HOME)//vifile
 
 clean:
 	rm -i $(HOME)/.bashrc
