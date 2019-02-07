@@ -1,5 +1,5 @@
 "
-" Set up a Simplicity window
+" Set up Simplicity window
 "
 set title
 set number
