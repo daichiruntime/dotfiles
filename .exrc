@@ -15,7 +15,7 @@ let &directory = &backupdir
 autocmd BufWritePre * let &backupext='.'.strftime("%Y%m%d-%H%M")
 
 "
-" Save Vim info in ~/backup/vi
+" Save im info in ~/backup/vi
 "
 set viminfo+=n~/backup/vi
 
